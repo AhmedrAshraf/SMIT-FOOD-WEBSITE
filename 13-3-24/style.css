@@ -1,0 +1,12 @@
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 13vw;
+  height: 13vw;
+  border: 1px solid gainsboro;
+  /* background-color: red; */
+}

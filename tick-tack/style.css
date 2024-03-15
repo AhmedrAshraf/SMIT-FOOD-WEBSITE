@@ -1,0 +1,19 @@
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15vw;
+  justify-content: center;
+}
+
+.box {
+  width: 18vw;
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+.box img {
+  width: 70%;
+  height: 70%;
+}

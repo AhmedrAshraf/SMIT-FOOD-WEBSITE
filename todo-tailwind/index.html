@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex justify-center  items-center bg-gray-200 h-screen flex-col">
+      <h1 class="text-3xl font-bold underline">Todo List</h1>
+
+      <div class="flex items-center mt-16 border-2 border-black">
+        <input placeholder="Enter Task" id="todoInput" />
+        <button onclick="add()">Add</button>
+      </div>
+
+      <ul id="list">
+
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

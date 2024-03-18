@@ -16,3 +16,9 @@ function tick(box) {
   }
 }
 
+function clearBoxes() {
+  let boxes = document.getElementsByClassName("box")
+  for (i = 0; i < boxes.length; i++) {
+    boxes[i].innerHTML = ""
+  }
+}
